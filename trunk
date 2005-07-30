@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- ====================================================================== 
+     Jul 29, 2005 10:08:55 PM                                                        
+
+     Solarium    
+     Common Library
+                   
+     Ravi Narain Bhatia                                                                
+     ====================================================================== -->
+<project name="Solarium" default="compile">
+    <description>
+            Common Library
+    </description>
+	
+    <!-- ================================= 
+          target: compile              
+         ================================= -->
+    <target name="compile" description="Compile all sources.">
+        <javac srcdir="src"
+         destdir="bin"
+         debug="on"
+	/>
+    </target>
+
+</project>
+
